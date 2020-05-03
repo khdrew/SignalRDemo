@@ -10,5 +10,10 @@ namespace SignalRDemo
         {
             Clients.All.AnnounceStartUp(name);
         }
+
+        public void SendChat(string sender, string chat)
+        {
+            Clients.All.ReceiveChat(sender, chat);
+        }
     }
 }
