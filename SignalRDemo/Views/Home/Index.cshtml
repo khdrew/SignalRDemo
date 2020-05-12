@@ -2,11 +2,10 @@
     ViewBag.Title = "Home Page";
 }
 
-@section  scripts{
-    <script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
-    <script src="~/signalr/js"></script>
+@section scripts{
     <script src="~/Scripts/sigr.js"></script>
 }
+
 
 <h1>
     Welcome to the SignalR Demo
@@ -19,8 +18,8 @@
 <div id="messages"></div>
 
 <div id="chat-form">
-    Chat: <input id="chat-form-input" type="text"/>
-    <input id="chat-form-btn" type="submit" value="Send"/>
+    Chat: <input id="chat-form-input" type="text" />
+    <input id="chat-form-btn" type="submit" value="Send" />
 </div>
 
 <button id="clear-list-btn">Clear chat logs</button>

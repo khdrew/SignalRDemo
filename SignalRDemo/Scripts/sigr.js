@@ -50,7 +50,7 @@
             inputBtn.click();
         }
     });
-
+    
     function sendChat() {
         // SIG R - CALLING SERVER SIDE METHOD
         $.connection.testHub.server.sendChat(myName, inputBox.value);
@@ -64,10 +64,4 @@
         });
     }
 })()
-
-
-
-
-
-
 

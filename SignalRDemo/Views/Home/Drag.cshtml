@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@section scripts {
+    <script src="~/Scripts/moveshape.js"></script>
+}
+
+<style>
+    #container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    #shape {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        background-color: #FF0000;
+        cursor: move;
+    }
+</style>
+
+<div id="container">
+    <div id="shape">
+        Drag Me
+    </div>
+</div>
+
+
